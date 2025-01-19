@@ -30,6 +30,7 @@ else{
     document.getElementById("message").innerHTML= "Введите дату Вашего рождения";
     } 
     else{
-    document.getElementById("message").innerHTML= `До Дня Рождения осталось ${daysDif} ${daysWord}!`
+    document.getElementById("message").innerHTML= `До Дня Рождения осталось ${daysDif} ${daysWord}!`;
+    document.getElementById("message").style.color="black";
     }
 };
